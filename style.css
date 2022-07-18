@@ -1,0 +1,81 @@
+*
+{
+    padding: 0;
+    margin: 0;
+
+}
+.navbar
+{
+    background-color: #0e1F58;
+    height: 100px;
+}
+.offcanvas
+{
+    background-color: #0e1F58   ;
+}
+.navbar-nav .nav-item .nav-link 
+{
+    color: white;
+}
+
+
+.box1 .container-fluid
+{
+    height: 100vh;
+    width: 100%;
+    display: table;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-image: url("https://static.wixstatic.com/media/0141bb700ad54cf2b0457ae50b0704c5.jpg/v1/fill/w_1899,h_1125,al_t,q_90,usm_0.66_1.00_0.01,enc_auto/0141bb700ad54cf2b0457ae50b0704c5.jpg");   
+}
+
+.box1 .container-fluid span
+{
+    position: absolute;
+    top: 60%;
+    left: 20%;
+    font-size: 80px;
+    color: white;
+}
+@media only screen and (max-width:576px)
+{
+    .box1 .container-fluid span
+    {
+        
+        position: absolute;
+        left: 85px;
+        top: 70%;
+        font-size: 40px;
+    }
+   
+    .box1 .container-fluid .btn:hover
+    {
+        background-color: transparent;
+        color: white;
+    }
+}
+
+.box1 .container-fluid .btn
+{
+    position: absolute;
+    top: 80%;
+    left: 30%;
+    height: 50px;
+    padding-top: 10px
+}
+
+.container-fluid .row .col-lg-12
+{
+    width: 100%;
+    height: 100px;
+    background-color: #0e1F58;
+}
+.container .row .col-lg-12 span
+{
+ background-color: white;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ height: 50px;
+}
